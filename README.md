@@ -4,6 +4,7 @@ A collection of scripts that I use when playing [Bitburner](https://store.steamp
 
 ### scan.js
 **Descritpion:** Performs a complete scan of ALL hosts and produces a JSON file of containing the scan data. This JSON file can  subsequently be used by any hacking, weaking, growing scripts to determine what hosts to target. Scan data is refreshed every 10 seconds.
+
 Note: This script will discover ALL hosts regardless of hacking level and what `DeepscanVX.exe` programs are available.
 
 **Use from:** home
