@@ -5,10 +5,15 @@ A collection of scripts that I use when playing [Bitburner](https://store.steamp
 ### scan.js
 **Descritpion:** Performs a complete scan of ALL hosts and produces a JSON file of containing the scan data. This JSON file can  subsequently be used by any hacking, weaking, growing scripts to determine what hosts to target. Scan data is refreshed every 10 seconds.
 Note: This script will discover ALL hosts regardless of hacking level and what `DeepscanVX.exe` programs are available.
+
 **Use from:** home
+
 **Runs:** Continuously, every 10 seconds
+
 **Output files:** scan_data.txt (JSON file)
+
 **Input files:** n/a
+
 **JSON file structure:** Array of host entries.
 Each host entry element is a JSON object with the following structure:
 |Property|Type|Description|Example|
@@ -27,7 +32,11 @@ Each host entry element is a JSON object with the following structure:
 
 ### unlock.js
 **Descritpion:** Enables root access on all eligible hosts. Takes into account current hacking level and port opening tools currently available (i.e. `BruteSSH.exe`).
+
 **Use from:** home
+
 **Runs:** Once, when executed from terminal
+
 **Output files:** n/a
+
 **Input files:** scan_data.txt
